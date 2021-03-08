@@ -10,7 +10,7 @@ import org.kohsuke.accmod.restrictions.Beta;
 /**
  * Allows specifying custom Runner implementations
  */
-@Restricted(Beta.class)
+// @Restricted(Beta.class)
 public abstract class PipelineDefinitionProvider implements ExtensionPoint {
 
     /**
